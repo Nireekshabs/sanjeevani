@@ -5,7 +5,7 @@ services:
     name: sanjeevani-ops
     runtime: docker
     plan: free
-    branch: main
+    branch: master
     autoDeploy: true
     healthCheckPath: /api/health
     envVars:
